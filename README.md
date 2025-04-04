@@ -1,5 +1,3 @@
-# discord-activity
-
 # Discord Rich Presence - Custom Status
 
 ---
@@ -30,12 +28,12 @@ DISCORD_CLIENT_ID=your_client_id_here
 - This file is already listed in .gitignore for security.
 
 ```
-### Images
+### 🖼️ Images
 
 The images (e.g., amigo, art) must be uploaded under
 "Rich Presence → Art Assets" in your Discord application settings.
 
-### Security
+### 🛡️ Security
 The clientId is loaded from .env to prevent exposing it in your code.
 
 Never share your .env file or commit it to public repositories.
