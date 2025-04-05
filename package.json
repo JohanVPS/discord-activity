@@ -1,0 +1,29 @@
+{
+  "name": "discord-activity",
+  "version": "1.0.0",
+  "description": "Custom Discord Rich Presence",
+  "main": "main.js",
+  "bin": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "build": "cp .env dist/ && pkg . --out-path dist"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^16.4.7"
+  },
+  "pkg": {
+    "scripts": "main.js",
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "keywords": [
+    "discord",
+    "rich-presence",
+    "rpc"
+  ],
+  "author": "JohanVPS",
+  "license": "MIT"
+}
